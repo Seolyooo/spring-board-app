@@ -31,8 +31,8 @@ spring:
         format_sql: true
         show_sql: true
 
-security:
-  user:
-    name: user
-    password: 1234
-    roles: ADMIN
+  security:
+    user:
+      name: user
+      password: 1234
+      roles: ADMIN
