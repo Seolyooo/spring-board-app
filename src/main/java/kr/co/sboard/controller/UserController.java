@@ -20,8 +20,7 @@ public class UserController {
     }
 
     @GetMapping("/user/login")
-    public String login(Model model){
-        model.addAttribute(appInfo);
+    public String login(){
         return "user/login";
     }
 
@@ -31,8 +30,7 @@ public class UserController {
     }
 
     @GetMapping("/user/terms")
-    public String terms(Model model){
-        model.addAttribute(appInfo);
+    public String terms(){
         return "user/terms";
     }
 
