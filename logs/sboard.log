@@ -733,3 +733,8 @@ This generated password is for development use only. Your security configuration
 2025-09-26T12:32:22.405+09:00  INFO 18488 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/sboard'
 2025-09-26T12:32:22.411+09:00  INFO 18488 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 0.725 seconds (process running for 415.519)
 2025-09-26T12:32:22.412+09:00  INFO 18488 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-26T12:40:15.976+09:00  INFO 18488 --- [sboard] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-26T12:40:16.115+09:00  INFO 18488 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-26T12:40:16.117+09:00  INFO 18488 --- [sboard] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-26T12:40:16.117+09:00  INFO 18488 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-09-26T12:40:16.221+09:00  INFO 18488 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
