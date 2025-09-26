@@ -16,7 +16,7 @@ spring:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     password: 1234
     url: jdbc:oracle:thin:@//43.203.167.107:1522/XEPDB1
-    username: seolyooo
+    username: sboard
   devtools:
     livereload:
       enabled: true
