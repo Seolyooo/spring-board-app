@@ -23,16 +23,36 @@ spring:
       enabled: true
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     properties:
       hibernate:
         format_sql: true
         show_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: syj3906@gmail.com
+    password : hllhmotxapxhxrta
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 5000
+          starttls:
+            required: true
+            enable: true
+          ssl:
+            trust: smtp.gmail.com
 
   security:
     user:
       name: user
       password: 1234
       roles: ADMIN
+
+  servlet:
+    multipart:
+      location: upload
+      max-file-size: 10MB
